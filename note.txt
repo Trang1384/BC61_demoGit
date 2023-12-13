@@ -1,0 +1,10 @@
+1.Khởi tạo thư mục dự án thành localRepository: git init 
+2.Sử dụng lệnh để đưa các file và các sự thay đổi lê khu vực staging area 
+-Git add có 2 kiur dùng :
++ 1 là đẩy theo kiểu từng file thì sẽ là git add (tên file)
++ 2 là đẩy toàn bộ file đã có sự thay đổi hoặc thêm mới thì dùng git add . hoặc git add -A 
+3.Lệnh giúp ktra các file đã được đẩy lên staging area: git status
+4.Lệnh giúp tạo 1 phiên bản để quản lý các sự thay đổi đã xảy ra , git commit -m "nội dung lời nhắn "
+5.Lệnh giúp kết nối remote repo với local repo: git remote ad origin (url của remote repo)
+6.Lệnh giúp đẩy code từ local repo lên remote repo: 2 trường hợp xảy ra nếu lần đầu tiên từ local repo đẩy lên github thì sẽ là git push -u origin ( tên nhánh : main hoặ master)
+
