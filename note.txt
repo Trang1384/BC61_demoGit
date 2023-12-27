@@ -11,3 +11,8 @@ từ remote repo về mtin ; git pull origin (tên nhánh trên remote repo)
 7.Lệnh giúp clone (lấy 1 bản sao) 1 dự án từ trên github về mtinh: git clone{url của reote repo}
 8.Lệnh giúp lấy sự thay đổi mới nhất mới nhát từ remote repo vè mtinh : git pull origin ( tên nhánh trên remote repo)
 9.File .gitignore giupws hỗ trợ trong viẹc có 1 số file hoặc thư mục k muốn đẩy lên remote repo
+
+// branch 
+10.Lệnh tạo nhánh mới :git branch (tên nhánh mới )
+11.Lện giúp chuyển nhánh : git checkout (tên nhánh muốn chuyển)
+12.Lệnh giúp tạo nhánh mới và chuyển qua nhánh mới: git checkout -b (tên nhánh mới )
